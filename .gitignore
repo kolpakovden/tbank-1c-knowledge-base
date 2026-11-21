@@ -1,0 +1,27 @@
+# local/private information — never commit
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.p12
+*.pfx
+*.crt
+*.cer
+*.jks
+*.keystore
+secrets/
+private/
+internal/
+exports/
+telegram-export/
+messages*.html
+*.log
+*.har
+*.sqlite
+*.db
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+__pycache__/
